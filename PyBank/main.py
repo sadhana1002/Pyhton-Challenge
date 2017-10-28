@@ -15,7 +15,7 @@ result = {  "File Name":"",
             }
 
 #for each given file, do the same steps
-for index,value in enumerate(file_names):
+for value in file_names:
 
     result["File Name"] = value
 
